@@ -2,12 +2,16 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>Navbar
-
-        <nav>Home</nav>
-        <nav>About</nav>
-        <nav>Contacts</nav>
-    </div>
+    <nav>
+        <div>
+            <div>AddiCare</div>
+            <ol>
+                <li>Home</li>
+                <li>About</li>
+                <li>Category</li>
+            </ol>
+        </div>
+    </nav>
   )
 }
 
